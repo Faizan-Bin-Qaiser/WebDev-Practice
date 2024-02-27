@@ -1,0 +1,112 @@
+@import url('Big_Shoulders_Display/static/BigShouldersDisplay-Black.ttf');
+body{
+    font-family: "Big_Shoulder_Display";       
+}
+img{
+    width: 200px;
+    float: left ;
+}
+
+#newone {
+    color: brown;
+}
+
+.para {
+    color: blue;
+}
+
+.container {
+    /* width: 1000px;
+    height: 100vh;
+    padding: 30px;
+    border: 5px solid gray;
+    margin: 70px; */
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+    min-height:100vh;
+    margin: 70px;
+    /* padding: 30px; */
+    /* box-shadow: 15px 15px 5px black, -15px -15px 5px black; */
+    /* box-shadow: 0 4px 8px 0 rgb(0, 0, 0), 0 6px 20px 0 rgb(0, 0, 0); */
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    border-radius: 15px ;
+  }
+
+.leftbar {
+    min-height:100vh;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(29, 29, 29);
+    border-radius: 15px 0 0 15px;
+    /* align-items: center; */
+  }
+
+  .picture {
+    margin-top: 50px;
+}
+
+.rightbar {
+    width: 70%;
+    display: flex;
+    border-radius: 0 15px 15px 0;
+    background-color: rgb(128, 37, 37);
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.education{
+    margin-right: 32rem;
+    width:30%
+
+}
+
+.clg{
+    margin: 15px;
+    width: 30%
+}
+.line{
+    width: 50%;
+    border-bottom: 2px solid black;
+    margin: 50px;
+    /* align-items: center; */
+    justify-content: center;
+}
+
+
+h1{
+    text-align: left;
+    color: white;
+    margin-bottom: 0px;
+    font-family:"Big_Shoulder_Display";
+}
+
+h2{
+    color: white;
+}
+
+p{
+    padding: 35px;
+    padding-top: 0px;
+    margin-top: 0px;
+    text-align: justify;
+    color: white;
+}
+
+.picture2::before,.picture2::after {
+    content:"" ;
+    background-color: black;
+    height: 2px;
+    display: block;
+}
+
+hr {
+    height: 3px; /* adjust the height to reduce the line thickness */
+    width: 50%; /* adjust the width to reduce the line length */
+    
+  }
+
+
